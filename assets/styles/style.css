@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Jaro:opsz@6..72&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Italiana&family=Jaro:opsz@6..72&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --backgroundColorLight: #a8e3fa;
+    --backgroundColorDark: #020D27;
+    --textColor1: #FFFFFF;
+    --textColor2: #b0ddf7;
+    --shadowColor: #14548F;
+    --contentColor1: #0563AD;
+    --contentColor1: #024374;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--backgroundColorDark);
+}
+/*Recordar crear la adaptabilidad en monitor(H), tablets(H/V) y celular(H)*/
